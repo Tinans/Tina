@@ -1,0 +1,5 @@
+<!--components/timer/timer.wxml-->
+<view class="container">
+  <view class="data">组件数据: <text class="text">{{count}}</text></view>
+  <button class="btn" bindtap="send">send</button>
+</view>

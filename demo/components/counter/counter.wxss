@@ -1,0 +1,9 @@
+/* components/counter/counter.wxss */
+.container .data {
+  padding: 30rpx 0;
+}
+
+.container .data .text {
+  font-size: 20px;
+  font-weight: 600;
+}

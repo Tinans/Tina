@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/about/index",
+    "pages/mine/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "weux",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/mine/index",
+      "text": "我的"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,17 @@
+<!--pages/home/index.wxml-->
+<view class="wrap">
+  <view class="title">响应式数据示例</view>
+  <view class="introduce">store内的数据全页面全组件共享且是响应式的（store内的页面数据显示放在computed在才会进行响应式处理）,可通过watch进行侦听</view>
+  <view class="data">页面数据: <text class="text">{{count}}</text></view>
+  <view class="data">页面数据: <text class="text">{{userInfo.name}}</text></view>
+  <counter />
+  <button class="btn" bindtap="change">commit</button>
+  <view class="title" style="margin: 30px 0 20px;">全局router使用示例</view>
+  <button class="btn" data-url="/pages/about/index?id=100&name=jerry" bindtap="routeTo">navigateTo跳转</button>
+  <button class="btn" data-route-type="switchTab" data-url="/pages/mine/index" bindtap="routeTo">switchTab跳转</button>
+  <button class="btn" data-route-type="redirectTo" data-url="/pages/about/index" bindtap="routeTo">redirectTo跳转</button>
+  <button class="btn" data-route-type="reLaunch" data-url="/pages/about/index" bindtap="routeTo">reLaunch跳转</button>
+  <view class="title" style="margin: 30px 0 20px;">globalData使用示例</view>
+  <button class="btn" bindtap="getGlobalData">获取globalData</button>
+  <button class="btn" bindtap="changeGlobalData">修改globalData</button>
+</view>

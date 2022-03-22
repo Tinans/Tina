@@ -1,0 +1,8 @@
+<!--pages/about/index.wxml-->
+<view class="container">
+  <view class="data">页面数据: <text class="text">{{count}}</text></view>
+  <view class="data">页面数据: <text class="text">{{userInfo.name}}</text></view>
+  <timer />
+  <button class="btn" bindtap="sumit">dispatch</button>
+  <button class="btn" data-route-type="navigateBack" bindtap="routeTo">返回上一页</button>
+</view>

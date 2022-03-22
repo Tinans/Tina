@@ -1,0 +1,9 @@
+<!--pages/mine/index.wxml-->
+<view class="container">
+  <view class="data" style="padding: 0 0 40rpx;">store数据: <text class="text">{{userInfo.name}}</text></view>
+  <button class="btn" bindtap="change">change</button>
+  <button class="btn" bindtap="navigateTo">navigateTo全局带参跳转</button>
+  <button class="btn" data-type="redirectTo" bindtap="navigateTo">redirectTo全局带参跳转</button>
+  <button class="btn" data-type="reLaunch" bindtap="navigateTo">reLaunch全局带参跳转</button>
+  <button class="btn" data-route-type="switchTab" data-url="/pages/home/index" bindtap="routeTo">switchTab跳转</button>
+</view>

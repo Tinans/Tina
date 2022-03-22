@@ -1,0 +1,40 @@
+{
+  "name": "tina-weapp",
+  "version": "6.2.1",
+  "description": "微信小程序",
+  "main": "dist/index.js",
+  "miniprogram": "dist",
+  "scripts": {
+    "build": "rollup --config rollup.config.build.js",
+    "dev": "rollup --config rollup.config.dev.js -w"
+  },
+  "keywords": [
+    "tina",
+    "tina-weapp",
+    "tina-weux",
+    "weux",
+    "wxstore",
+    "weapp",
+    "weappstore"
+  ],
+  "author": {
+    "name": "Tinans",
+    "email": "ziqian.developer@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tinans/Tina.git/issues"
+  },
+  "homepage": "https://github.com/Tinans/Tina.git#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "miniprogram-simulate": "^1.5.5",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

@@ -1,0 +1,4 @@
+<!--components/counter/counter.wxml-->
+<view class="container">
+  <view class="data">组件数据: <text class="text">{{number}}</text></view>
+</view>
