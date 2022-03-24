@@ -46,7 +46,7 @@ export default new Store ({
 })
 
 ```
-#### 引入Store
+#### 引入store配置文件
 请在app.js中放在proxyData中,如下示例
 ```
 // app.js
@@ -340,8 +340,6 @@ onLoad: function (options) {
   this.$global('bookInfo.info.author', 'unknow')
 },
 ```
-
-配置完重启开发工具,在同名wxss同级文件建立跟wxss同名的文件,编写sass或者less后会自动编译保存到同名wxss文件
 
 #### JSON Diff
 
