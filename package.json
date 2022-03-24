@@ -1,6 +1,6 @@
 {
   "name": "tina-weapp",
-  "version": "6.2.1",
+  "version": "6.2.3",
   "description": "微信小程序",
   "main": "dist/index.js",
   "miniprogram": "dist",

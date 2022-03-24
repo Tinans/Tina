@@ -26,7 +26,7 @@ npm install tina-weapp
 直接通过 git 下载 tina-weapp 源代码，并将lib下的目录文件放在项目根目录下
 
 ```
-git clone https://gitee.com/Tinans/Tina.git
+git clone https://github.com/Tinans/Tina
 ```
 
 #### 使用Store
