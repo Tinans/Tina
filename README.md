@@ -23,10 +23,26 @@ npm install tina-weapp
 ```
 
 #### 方式二: 下载代码
-直接通过 git 下载 tina-weapp 源代码，并将lib下的目录文件放在项目根目录下
+直接通过 git 下载 tina-weapp 源代码，并将dist目录文件放在项目根目录下
 
 ```
 git clone https://github.com/Tinans/Tina
+```
+
+#### 引入tina-weapp
+在app.js中引入tina-weapp
+```
+// app.js
+import './dist/index'
+
+App({
+  onLaunch() {
+    
+  },
+  globalData: {
+    
+  }
+})
 ```
 
 #### 使用Store
@@ -66,7 +82,7 @@ App({
 ```
 
 #### 在页面或者组件中使用store
-通vue一样可以通过computed使用或者直接获取,在页面跟组件的使用方式一样
+同vue一样可以通过computed使用或者直接获取,在页面跟组件的使用方式一样
 ```
 // pages/home/index.js
 import { mapState, mapGetters } from 'tina-weapp'
